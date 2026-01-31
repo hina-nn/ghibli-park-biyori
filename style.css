@@ -26,7 +26,7 @@
 }
 
 .background {
-    background-image: url('/jiburi-haikei.jpg');
+    background-image: url('./jiburi-haikei.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@
     position: absolute;
     top: -62px;
     left: -69px;
-    background-image: url('/hukidasi.svg');
+    background-image: url('./hukidasi.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@
     top: -42px;
     left: 34px;
     transform: scaleX(-1);
-    background-image: url('/hukidasi.svg');
+    background-image: url('./hukidasi.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@
 }
 
 .miti {
-    background-image: url('/miti2.PNG');
+    background-image: url('./miti2.PNG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@
 }
 
 .parkmap {
-    background-image: url('/parkmap.webp');
+    background-image: url('./parkmap.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
