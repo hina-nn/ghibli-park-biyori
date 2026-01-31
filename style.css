@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-size: 13px;
+    /* font-weight: bold; */
+    color: #009ed7;
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    backdrop-filter: blur(8px); /* 背景ぼかし */
+    -webkit-backdrop-filter: blur(8px); /* Safari対応 */
+    border-bottom: 1px solid rgba(0,0,0,0.07); /* 境界線を薄めに追加 */
+    /* お好みで: 影や丸みも可
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    */
+    font-family: sans-serif;
+}
+
+.background {
+    background-image: url('/jiburi-haikei.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100svh;
+    width: 100vw;
+}
+
+.title {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 86px;
+    font-family: sans-serif;
+}
+
+.kuro-wrap {
+    width: 10%;
+    position: absolute;
+    bottom: 25%;
+    right: 40px;
+}
+
+.kuro2-wrap {
+    width: 12%;
+    position: absolute;
+    bottom: 10%;
+    left: 40px;
+}
+
+.kuro {
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+}
+
+.kuro2 {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+}
+
+.hukidasi {
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    top: -62px;
+    left: -69px;
+    background-image: url('/hukidasi.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hukidasi p {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    font-size:11px;
+    font-family: sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+
+.hukidasi p span:last-child {
+    text-indent: 1rem;
+    font-family: sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+
+.hukidasi2 {
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    top: -42px;
+    left: 34px;
+    transform: scaleX(-1);
+    background-image: url('/hukidasi.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hukidasi2 p {
+    transform: scaleX(-1);
+    font-size: 11px;
+    font-family: sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+
+.miti {
+    background-image: url('/miti2.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 85%;
+    height: 393px;
+    margin-left: auto;
+    position: relative;
+}
+
+.seisyun {
+    width: 67px;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+}
+
+.daisouko {
+    width: 67px;
+    position: absolute;
+    top: 91px;
+    left: 114px;
+}
+
+.majyo {
+    width: 71px;
+    position: absolute;
+    top: 58px;
+    left: 213px;
+}
+
+.mononoke {
+    width: 67px;
+    position: absolute;
+    top: 211px;
+    left: 188px;
+}
+
+.dondoko {
+    width: 67px;
+    position: absolute;
+    top: 228px;
+    left: 27px;
+}
+
+.nekobasu {
+    width: 78px;
+    position: absolute;
+    top: 286px;
+    left: 160px;
+}
+
+.parkmap {
+    background-image: url('/parkmap.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    height: 493px;
+    width: 100%;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 0 16px 20px 16px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .item {
+    text-align: center;         /* 画像と文字を中央揃え */
+  }
+  
+  .item img {
+    width: 100%;               /* 画像の大きさ調整 */
+    height: auto;
+    border-radius: 10px;        /* 角を少し丸くする（任意） */
+  }
+  
+  .item p {
+    font-size: 12px;
+    margin-top: 4px;
+    line-height: 1.4;
+    font-family: sans-serif;
+  }
+  

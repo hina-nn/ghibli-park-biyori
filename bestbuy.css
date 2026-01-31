@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh; /* 最小高さを確保 */
+    min-height: 100svh; /* モバイルUI表示時に高さが変わらないように */
+    font-family: sans-serif;
+}
+
+.header {
+    font-size: 13px;
+    /* font-weight: bold; */
+    color: #009ed7;
+    text-align: left;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    backdrop-filter: blur(8px); /* 背景ぼかし */
+    -webkit-backdrop-filter: blur(8px); /* Safari対応 */
+    border-bottom: 1px solid rgba(0,0,0,0.07); /* 境界線を薄めに追加 */
+    /* お好みで: 影や丸みも可*/
+}
+
+.bestbuy-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #08B0BF;
+    padding: 13px 13px 13px 19px;
+    margin-top: 60px; /* .header の高さ分のマージン（padding: 20px × 2 + フォント高さ） */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.bestbuy-header .bestbuy-icon {
+    width: 56px;
+}
+
+
+.youso {
+    padding: 0 16px;
+}
+
+
+.photos {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px 0;
+}
